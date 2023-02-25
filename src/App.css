@@ -1,0 +1,105 @@
+* {
+    background-color: rgb(39, 38, 38);
+    color: rgb(232, 225, 225);
+    font-family: 'Inter';
+  }
+  
+  .head {
+    position: absolute;
+    width: 278px;
+    height: 39px;
+    left: 30px;
+    top: -160px;
+    color: #FFFFFF;
+  }
+  
+  .title {
+    position: absolute;
+    width: 489px;
+    height: 39px;
+    left: 30px;
+    top: -103px;
+    color: #FFFFFF;
+  }
+  
+  .App {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 180px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .movie-title {
+    position: absolute;
+    width: 450px;
+    height: 9px;
+    left: 30px;
+    top: 100px;
+    color: #FFFFFF;
+  }
+  
+  .App img {
+    width: 80%;
+    height: 50%;
+    border: #fff solid 2px;
+  }
+  
+  .search input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1300px;
+    height: 54px;
+    left: 30px;
+    top: -10px;
+    font-size: 20px;
+    border: 1px solid #FFFFFF;
+    border: none;
+  }
+
+  .moviesearch button.btn {
+    position: absolute;
+    width: 200px;
+    height: 66px;
+    left: 30px;
+    top: 50px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .btn1 {
+    left: 74px;
+    padding: 10px;
+    top: 1092px;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  
+  }
+  
+  .mdata {
+    position: relative;
+    top: -150px;
+  }
+  
+  .mdata img {
+    width: 200px;
+    height: 200px;
+ 
+  }
+  
+  
+  .load{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    font-size: 25px;
+    color: green;
+  }
